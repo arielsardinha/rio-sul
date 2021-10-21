@@ -1,0 +1,132 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+  --text-white: #fff;
+  --text-grey-1: #323232;
+  --text-grey-2: #a7a6a6;
+  --color-primary: #fab300;
+  --color-secondary: #00652a;
+  --color-green: #094f1d;
+}
+.text-white {
+  color: var(--text-white);
+}
+
+.text-gray-1 {
+  color: var(--text-grey-1);
+}
+.text-gray-2 {
+  color: var(--text-grey-2);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+.background-secondary {
+  background-color: var(--color-secondary);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+.background-primary {
+  background-color: var(--color-primary);
+}
+
+/* display */
+.d-flex {
+  display: flex !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-inline {
+  display: inline-block !important;
+}
+.d-contents {
+  display: contents !important;
+}
+.d-none {
+  display: none !important;
+}
+
+/* text align */
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.text-right {
+  text-align: right !important;
+}
+
+/* flex flow */
+.flex-row {
+  flex-direction: row !important;
+}
+.flex-col {
+  flex-direction: column !important;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse !important;
+}
+
+/* flex alignments */
+.align-start {
+  align-items: flex-start !important;
+}
+.align-center {
+  align-items: center !important;
+}
+.align-stretch {
+  align-items: stretch !important;
+}
+.align-baseline {
+  align-items: baseline !important;
+}
+.align-end {
+  align-items: flex-end !important;
+}
+
+/* flex justify */
+.justify-stretch {
+  justify-content: stretch !important;
+}
+.justify-start {
+  justify-content: start !important;
+}
+.justify-end {
+  justify-content: flex-end !important;
+}
+.justify-between {
+  justify-content: space-between !important;
+}
+.justify-around {
+  justify-content: space-around !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
