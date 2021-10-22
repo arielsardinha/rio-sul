@@ -1,0 +1,24 @@
+.box_data-information {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--color-secondary);
+  padding: 15px 0;
+  .data-information {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 15px;
+    svg {
+      margin-right: 10px;
+    }
+    svg {
+      color: var(--color-primary);
+    }
+    a,
+    p {
+      color: var(--text-white);
+    }
+    &.data {
+      color: var(--color-primary);
+    }
+  }
+}

@@ -1,6 +1,4 @@
 .btn-menu {
-  position: relative;
-  z-index: 1;
   background-color: transparent;
   border: none;
   width: 70px;
@@ -44,10 +42,11 @@
   }
   .back-right {
     width: 30%;
+    min-width: 225px;
     background-color: var(--color-secondary);
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 75px;
     box-shadow: -8px 0px 11px 0px rgba(0, 0, 0, 0.46);
     a {
       &:first-of-type {
@@ -73,16 +72,22 @@
   opacity: 1;
 }
 
-.box-menu-nav{
+.box-menu-nav {
   position: fixed;
   display: flex;
+  z-index: 1;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
-  .logo-menu{
-    position: relative;
-    z-index: 1;
+  .logo-menu {
     width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-menu {
+    width: 200px !important;
   }
 }
 

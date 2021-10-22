@@ -25,6 +25,7 @@ a {
   --color-secondary: #00652a;
   --color-green: #094f1d;
 }
+
 .text-white {
   color: var(--text-white);
 }
@@ -134,3 +135,4 @@ a {
 
 @import "../components/navbar/menuNav.scss";
 @import "../partials/header/header.scss";
+@import "../components/dataInformation/dataInformation.scss";
