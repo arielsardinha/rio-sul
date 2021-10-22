@@ -53,7 +53,7 @@ const DataInformation = () => {
       </div>
       <p className="data-information data">
         Agora são {hora}:{minuto} horas,
-        {hora > 8 && hora < 18 ? "Estamos abertos!" : " Estamos fechado!"}
+        {hora >= 8 && hora <= 18 ? " Estamos abertos!" : " Estamos fechado!"}
       </p>
     </div>
   );
