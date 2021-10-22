@@ -1,8 +1,6 @@
 .btn-menu {
-  position: fixed;
+  position: relative;
   z-index: 1;
-  right: 30px;
-  top: 30px;
   background-color: transparent;
   border: none;
   width: 70px;
@@ -73,6 +71,19 @@
   right: 0;
   top: 0;
   opacity: 1;
+}
+
+.box-menu-nav{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  .logo-menu{
+    position: relative;
+    z-index: 1;
+    width: 300px;
+  }
 }
 
 @keyframes menu-opem {
