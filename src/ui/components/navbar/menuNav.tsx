@@ -2,21 +2,24 @@ import Link from "@components/link/link";
 import { useState } from "react";
 
 const Nav = () => {
-  const [opem, setOpem] = useState(false);
-  const [close, setClose] = useState(false);
+  const [opem, setOpem] = useState("");
   return (
     <>
       <div className="box-menu-nav">
         <Link href="/">
-          <img src="/logo-rio-sul-green.svg" alt="" className="logo-menu" />
+          <img
+            src="/logo-rio-sul-green.svg"
+            alt="rio sul"
+            className="logo-menu"
+            title="Rio sul"
+          />
         </Link>
         <button
-          className={`btn-menu ${opem && "active-opem"} ${
-            close && "acctive-close"
+          className={`btn-menu ${opem === "opem" && "active-opem"} ${
+            opem === "close" && "acctive-close"
           }`}
           onClick={() => {
-            setOpem(true);
-            setClose(false);
+            setOpem(opem === "opem" ? "close" : "opem");
           }}
         >
           <svg
@@ -31,12 +34,11 @@ const Nav = () => {
           </svg>
         </button>
       </div>
-      <div className={`container-nav-menu ${opem && "active-menu"}`}>
+      <div className={`container-nav-menu ${opem === "opem" && "active-menu"}`}>
         <button
           className="back-left"
           onClick={() => {
-            setClose(true);
-            setOpem(false);
+            setOpem(opem === "opem" ? "close" : "opem");
           }}
         ></button>
         <nav className="back-right">
