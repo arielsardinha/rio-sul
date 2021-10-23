@@ -1,4 +1,35 @@
 .header-container {
   padding-top: 90px;
-  height: 100vh;
+  min-height: 100vh;
+  .box-titles {
+    max-width: 500px;
+    height: 450px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 10px;
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-style: italic;
+    }
+    a {
+      color: var(--text-white);
+      padding: 5px 20px;
+      margin-right: 5px;
+      border-radius: 5px;
+      &:last-of-type {
+        background-color: var(--color-primary);
+        &:hover {
+          color: var(--color-secondary);
+        }
+      }
+      &:first-of-type {
+        background-color: var(--color-secondary);
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
+    }
+  }
 }
