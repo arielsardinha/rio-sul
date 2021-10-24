@@ -62,7 +62,7 @@ const CompanyValues = () => {
             <p>Commitment</p>
           </li>
         </ul>
-        <Inform type={active} />
+        <Inform type={active.toString()} />
       </div>
     </aside>
   );

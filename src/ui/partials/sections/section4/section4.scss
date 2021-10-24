@@ -1,0 +1,25 @@
+.box-sessaoFour {
+  text-align: center;
+  .box-grid {
+    display: flex;
+    justify-content: center;
+    & > div {
+      text-align: left;
+      max-width: 400px;
+      margin: 10px;
+      h5,
+      h4 {
+        margin: 0;
+      }
+      h4{
+          font-size: 1.5em;
+      }
+      h5 {
+        font-style: italic;
+      }
+      p {
+        color: var(--text-grey-2);
+      }
+    }
+  }
+}
