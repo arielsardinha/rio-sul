@@ -1,7 +1,7 @@
 import Link from "@components/link/link";
 
 const SectionThree = () => (
-  <div className="box-sectionThree">
+  <section className="box-sectionThree">
     <div className="box-texts">
       <h3>We Have Dedicated Team to Provide Uninterrupted Services</h3>
       <p>
@@ -39,7 +39,7 @@ const SectionThree = () => (
         </svg>
       </Link>
     </div>
-  </div>
+  </section>
 );
 
 const CheckBox = () => (

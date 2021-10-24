@@ -3,7 +3,7 @@ import { useState } from "react";
 const CompanyValues = () => {
   const [active, setActive] = useState("innovative");
   return (
-    <div className="box-company-details">
+    <aside className="box-company-details">
       <h4>SOME COMPANY VALUES</h4>
       <div></div>
       <div className="box-informate">
@@ -64,7 +64,7 @@ const CompanyValues = () => {
         </ul>
         <Inform type={active} />
       </div>
-    </div>
+    </aside>
   );
 };
 

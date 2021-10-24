@@ -1,5 +1,5 @@
 const Testimonials = () => (
-  <div className="box-testimonials">
+  <aside className="box-testimonials">
     <h4>TESTIMONIALS</h4>
     <div>
       <Philips />
@@ -7,7 +7,7 @@ const Testimonials = () => (
       <Peter />
       <John />
     </div>
-  </div>
+  </aside>
 );
 
 export default Testimonials;
@@ -83,10 +83,7 @@ const Philips = () => (
       some great pleasure. How all this mistaken idea of denouncing pleasure
     </p>
     <div className="signature">
-      <img
-        src="/assinatura.png"
-        alt="logo-7"
-      />
+      <img src="/assinatura.png" alt="logo-7" />
     </div>
   </div>
 );
@@ -162,10 +159,7 @@ const Chris = () => (
       some great pleasure. How all this mistaken idea of denouncing pleasure
     </p>
     <div className="signature">
-      <img
-        src="/assinatura.png"
-        alt="logo-7"
-      />
+      <img src="/assinatura.png" alt="logo-7" />
     </div>
   </div>
 );
@@ -241,10 +235,7 @@ const Peter = () => (
       some great pleasure. How all this mistaken idea of denouncing pleasure
     </p>
     <div className="signature">
-      <img
-        src="/assinatura.png"
-        alt="logo-7"
-      />
+      <img src="/assinatura.png" alt="logo-7" />
     </div>
   </div>
 );
@@ -319,10 +310,7 @@ const John = () => (
       some great pleasure. How all this mistaken idea of denouncing pleasure
     </p>
     <div className="signature">
-      <img
-        src="/assinatura.png"
-        alt="logo-7"
-      />
+      <img src="/assinatura.png" alt="logo-7" />
     </div>
   </div>
 );
