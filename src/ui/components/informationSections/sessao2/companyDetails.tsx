@@ -71,7 +71,7 @@ const CompanyValues = () => {
 const Inform = ({ type }) => {
   if (type === "innovative")
     return (
-      <div className="box-texts">
+      <div className="box-texts" data-aos="fade-up">
         <h5>Innovative (To Think Before Acting)</h5>
         <p>
           Whether you are global or local, asset or sed non-asset based, move
@@ -89,7 +89,7 @@ const Inform = ({ type }) => {
     );
   if (type === "quality")
     return (
-      <div className="box-texts">
+      <div className="box-texts" data-aos="fade-up">
         <h5>Quality</h5>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -104,7 +104,7 @@ const Inform = ({ type }) => {
     );
   if (type === "commitment")
     return (
-      <div className="box-texts">
+      <div className="box-texts" data-aos="fade-up">
         <h5>Commitment</h5>
         <p>
           How all this mistaken idea of denouncing pleasure and praising pain
@@ -130,6 +130,8 @@ const CheckInnovative = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -144,6 +146,8 @@ const CheckInnovative = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -158,6 +162,8 @@ const CheckInnovative = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -172,6 +178,8 @@ const CheckInnovative = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -186,6 +194,8 @@ const CheckInnovative = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -200,6 +210,8 @@ const CheckInnovative = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -219,6 +231,8 @@ const CheckQuality = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -233,6 +247,8 @@ const CheckQuality = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -247,6 +263,8 @@ const CheckQuality = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -261,6 +279,8 @@ const CheckQuality = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -275,6 +295,8 @@ const CheckQuality = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -289,6 +311,8 @@ const CheckQuality = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -308,6 +332,8 @@ const CheckCommitment = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -322,6 +348,8 @@ const CheckCommitment = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -336,6 +364,8 @@ const CheckCommitment = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -350,6 +380,8 @@ const CheckCommitment = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -364,6 +396,8 @@ const CheckCommitment = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
@@ -378,6 +412,8 @@ const CheckCommitment = () => (
         fill="currentColor"
         className="bi bi-check2-circle"
         viewBox="0 0 16 16"
+        data-aos="fade-up"
+        data-aos-delay="600"
       >
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />

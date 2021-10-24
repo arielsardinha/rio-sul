@@ -16,7 +16,7 @@ const Philips = () => (
   <div className="box-users">
     <h3>Philips Adams Doe</h3>
     <span>(HR Manager, Lexico)</span>
-    <div>
+    <div data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -95,7 +95,7 @@ const Chris = () => (
   <div className="box-users">
     <h3>Chris Roger Fernando</h3>
     <span>(Global Max Pvt ltd)</span>
-    <div>
+    <div data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -174,7 +174,7 @@ const Peter = () => (
   <div className="box-users">
     <h3>Peter David Nilson</h3>
     <span>(CEO, Starmetro)</span>
-    <div>
+    <div data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -252,7 +252,7 @@ const John = () => (
   <div className="box-users">
     <h3>John Christopher</h3>
     <span>(CEO & Founder - ZoomTheme ltd)</span>
-    <div>
+    <div data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
