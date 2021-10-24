@@ -84,7 +84,7 @@ const Philips = () => (
     </p>
     <div className="signature">
       <img
-        src="https://web.archive.org/web/20210422144405im_/http://demo2.steelthemes.com/truckpress/wp-content/uploads/sites/2/2016/02/logo-7-1.png"
+        src="/assinatura.png"
         alt="logo-7"
       />
     </div>
@@ -163,7 +163,7 @@ const Chris = () => (
     </p>
     <div className="signature">
       <img
-        src="https://web.archive.org/web/20210422144405im_/http://demo2.steelthemes.com/truckpress/wp-content/uploads/sites/2/2016/02/logo-7-1.png"
+        src="/assinatura.png"
         alt="logo-7"
       />
     </div>
@@ -242,7 +242,7 @@ const Peter = () => (
     </p>
     <div className="signature">
       <img
-        src="https://web.archive.org/web/20210422144405im_/http://demo2.steelthemes.com/truckpress/wp-content/uploads/sites/2/2016/02/logo-7-1.png"
+        src="/assinatura.png"
         alt="logo-7"
       />
     </div>
@@ -320,7 +320,7 @@ const John = () => (
     </p>
     <div className="signature">
       <img
-        src="https://web.archive.org/web/20210422144405im_/http://demo2.steelthemes.com/truckpress/wp-content/uploads/sites/2/2016/02/logo-7-1.png"
+        src="/assinatura.png"
         alt="logo-7"
       />
     </div>
