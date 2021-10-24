@@ -1,5 +1,6 @@
-import Attributes from "@components/informationSections/attributes";
-import Descriptions from "@components/informationSections/descriptions";
+import Attributes from "@components/informationSections/sessao1/attributes";
+import Descriptions from "@components/informationSections/sessao1/descriptions";
+import QuantityDetailsUsers from "@components/informationSections/sessao1/quantityDeteils";
 
 const SectionOne = () => (
   <section>
@@ -40,6 +41,9 @@ const SectionOne = () => (
         }
         title={"Ground Transport"}
       />
+    </aside>
+    <aside>
+      <QuantityDetailsUsers />
     </aside>
   </section>
 );

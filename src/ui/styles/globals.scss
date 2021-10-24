@@ -21,6 +21,11 @@ section {
   margin: auto;
 }
 
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
 :root {
   scroll-behavior: smooth;
   --text-white: #fff;
@@ -141,6 +146,10 @@ section {
 @import "../components/navbar/menuNav.scss";
 @import "../partials/header/header.scss";
 @import "../components/dataInformation/dataInformation.scss";
-@import "../components/attributes/atributes.scss";
 @import "../partials/sections/section1/section1.scss";
-@import "../components/attributes/descriptions.scss";
+@import "../components/informationSections/sessao1/atributes.scss";
+@import "../components/informationSections/sessao1/descriptions.scss";
+@import "../components/informationSections/sessao1/quantityDeteils.scss";
+@import "../partials/sections/section2/section2.scss";
+@import "../components/informationSections/sessao2/companyDeails.scss";
+@import "../components/informationSections/sessao2/testimonials.scss";

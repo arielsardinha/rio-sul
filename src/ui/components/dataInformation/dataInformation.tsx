@@ -8,7 +8,7 @@ const DataInformation = () => {
     new Date().getDate(),
   ]);
   return (
-    <div className="box_data-information">
+    <div className="box_data-information container">
       <address className="data-information">
         <svg
           xmlns="http://www.w3.org/2000/svg"

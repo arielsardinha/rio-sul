@@ -1,0 +1,11 @@
+.box-sec2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+@media (max-width: 850px) {
+  .box-sec2 {
+    flex-wrap: wrap;
+  }
+}
