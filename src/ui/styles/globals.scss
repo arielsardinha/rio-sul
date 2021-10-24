@@ -16,6 +16,11 @@ a {
   box-sizing: border-box;
 }
 
+section {
+  max-width: 1440px;
+  margin: auto;
+}
+
 :root {
   scroll-behavior: smooth;
   --text-white: #fff;
@@ -137,3 +142,5 @@ a {
 @import "../partials/header/header.scss";
 @import "../components/dataInformation/dataInformation.scss";
 @import "../components/attributes/atributes.scss";
+@import "../partials/sections/section1/section1.scss";
+@import "../components/attributes/descriptions.scss";

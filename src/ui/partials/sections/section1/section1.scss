@@ -1,0 +1,33 @@
+.box_sec1-title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+  h3 {
+    white-space: nowrap;
+    font-size: 2em;
+    padding-right: 70px;
+  }
+  p {
+    color: var(--text-grey-2);
+  }
+}
+.box-description-section1 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(230px, 1fr));
+}
+
+@media (max-width: 745px) {
+  .box-description-section1 {
+    grid-template-columns: repeat(1, minmax(230px, 1fr));
+  }
+  .box_sec1-title {
+    flex-direction: column;
+    text-align: center;
+    h3 {
+      white-space: normal;
+      padding: 0;
+    }
+  }
+}
