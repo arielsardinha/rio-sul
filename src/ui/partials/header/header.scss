@@ -3,7 +3,7 @@
   min-height: 100vh;
   .box-titles {
     max-width: 500px;
-    height: 450px;
+    height: 600px;
     text-align: left;
     margin: 0 auto;
     padding: 0 10px;
@@ -30,6 +30,14 @@
           color: var(--color-primary);
         }
       }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .header-container {
+    .box-titles {
+      height: 750px;
     }
   }
 }
