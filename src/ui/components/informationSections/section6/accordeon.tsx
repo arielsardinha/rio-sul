@@ -16,7 +16,7 @@ const Accordeon = () => {
           <Box />
           <p>O que é um rastreador ?</p>
         </div>
-        <div className={`${rastreador === "rastreador" && "active"}`}>
+        <div className={`${rastreador === "rastreador" ? "active" : ""}`}>
           <p>
             Rastreador é equipamento utilizado em veículos terrestres, aéreos e
             marítimos para monitorar informações logísticas e geográficas, da
@@ -31,7 +31,7 @@ const Accordeon = () => {
           <Box />
           <p>O que é GPS ?</p>
         </div>
-        <div className={`${gps === "GPS" && "active"}`}>
+        <div className={`${gps === "GPS" ? "active" : ""}`}>
           <p>
             GPS – Sistema de Posicionamento Global, mantido pelo Governo dos
             Estados Unidos, é composto por 24 satélites que estão em órbita e se
@@ -61,7 +61,7 @@ const Accordeon = () => {
             Localize Rastreamento?
           </p>
         </div>
-        <div className={`${rastreamento === "rastreamento" && "active"}`}>
+        <div className={`${rastreamento === "rastreamento" ? "active" : ""}`}>
           <p>
             O sistema de rastreamento da Brasil Localize Rastreamento tem
             cobertura GPS em todo o território nacional. Podendo sofrer ausência
@@ -76,7 +76,7 @@ const Accordeon = () => {
           <Box />
           <p>O Rastreador interfere no sistema eletrônico do veiculo?</p>
         </div>
-        <div className={`${veiculo === "veiculo" && "active"}`}>
+        <div className={`${veiculo === "veiculo" ? "active" : ""}`}>
           <p>
             Não. A instalação é feita seguindo rigorosas normas técnicas por
             isso não há interferência no sistema elétrico/eletrônico do veículo.

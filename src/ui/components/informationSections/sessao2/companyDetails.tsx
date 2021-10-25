@@ -4,13 +4,13 @@ const CompanyValues = () => {
   const [active, setActive] = useState("innovative");
   return (
     <aside className="box-company-details">
-      <h4>SOME COMPANY VALUES</h4>
+      <h4>ALGUNS VALORES DA EMPRESA</h4>
       <div></div>
       <div className="box-informate">
         <ul>
           <li
             onClick={() => setActive("innovative")}
-            className={active === "innovative" && "active"}
+            className={active === "innovative" ? "active" : ""}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,11 +22,11 @@ const CompanyValues = () => {
             >
               <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
             </svg>
-            <p>Innovative</p>
+            <p>Inovativa</p>
           </li>
           <li
             onClick={() => setActive("quality")}
-            className={active === "quality" && "active"}
+            className={active === "quality" ? "active" : ""}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,11 +38,11 @@ const CompanyValues = () => {
             >
               <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z" />
             </svg>
-            <p>Quality</p>
+            <p>Qualidade</p>
           </li>
           <li
             onClick={() => setActive("commitment")}
-            className={active === "commitment" && "active"}
+            className={active === "commitment" ? "active" : ""}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const CompanyValues = () => {
               />
               <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
             </svg>
-            <p>Commitment</p>
+            <p>Compromisso</p>
           </li>
         </ul>
         <Inform type={active.toString()} />
@@ -72,15 +72,15 @@ const Inform = ({ type }) => {
   if (type === "innovative")
     return (
       <div className="box-texts" data-aos="fade-up">
-        <h5>Innovative (To Think Before Acting)</h5>
+        <h5>Inovador (para pensar antes de agir)</h5>
         <p>
-          Whether you are global or local, asset or sed non-asset based, move
-          where shipments by air, ocean, ground or any logistics will be too
-          combi- this is easier said than done, as you have to manage us
-          shipments, resources and documents.Lorem ipsum dolor sit amet,
+          Quer você seja global ou local, baseado em ativos ou não, mova onde as
+          remessas por via aérea, marítima, terrestre ou qualquer logística
+          também estarão combi- é mais fácil falar do que fazer, pois você tem
+          que nos gerenciar remessas, recursos e documentos. Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit.
+          adipiscing elit.
         </p>
         <span>
           <CheckInnovative />
@@ -90,7 +90,7 @@ const Inform = ({ type }) => {
   if (type === "quality")
     return (
       <div className="box-texts" data-aos="fade-up">
-        <h5>Quality</h5>
+        <h5>Qualidade</h5>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
           placerat eu lacus in facilisis. Vivamus sit amet imperdiet eros.
@@ -105,12 +105,11 @@ const Inform = ({ type }) => {
   if (type === "commitment")
     return (
       <div className="box-texts" data-aos="fade-up">
-        <h5>Commitment</h5>
+        <h5>Compromisso</h5>
         <p>
-          How all this mistaken idea of denouncing pleasure and praising pain
-          was born in and I will give you a complete account of the system, and
-          expound the actual ut teachings of the great explorer of the truth
-          happiness.
+          Como toda essa ideia equivocada de denunciar o prazer e elogiar a dor
+          nasceu em e vou dar-lhe um relato completo do sistema, e expor os
+          verdadeiros ensinamentos do grande explorador da verdade felicidade.
         </p>
         <span>
           <CheckCommitment />

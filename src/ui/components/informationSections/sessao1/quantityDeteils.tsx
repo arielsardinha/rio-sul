@@ -34,7 +34,7 @@ const QuantityDetailsUsers = () => {
       <div>
         <div>
           <span>{users} +</span>
-          <p>Passionate Employee</p>
+          <p>Funcionário Apaixonado</p>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const QuantityDetailsUsers = () => {
       <div>
         <div>
           <span>{building} +</span>
-          <p>Offices in Worldwide</p>
+          <p>Escritórios em todo o mundo</p>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ const QuantityDetailsUsers = () => {
       <div>
         <div>
           <span>{globale} +</span>
-          <p>Offices in Worldwide</p>
+          <p>Caminhões de carga modernos</p>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ const QuantityDetailsUsers = () => {
       <div>
         <div>
           <span>{award} +</span>
-          <p>Modern Cargo Trucks</p>
+          <p>Prêmios Internacionais</p>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

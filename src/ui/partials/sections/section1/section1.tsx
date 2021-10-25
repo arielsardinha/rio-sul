@@ -3,43 +3,43 @@ import Descriptions from "@components/informationSections/sessao1/descriptions";
 import QuantityDetailsUsers from "@components/informationSections/sessao1/quantityDeteils";
 
 const SectionOne = () => (
-  <section>
+  <section id="nossosServicos">
     <Attributes />
     <div className="box_sec1-title" data-aos="fade-up">
-      <h3>OUR QUALITY SERVICES</h3>
+      <h3>NOSSOS SERVIÇOS DE QUALIDADE</h3>
       <p>
-        Who do not know how to pursue pleasure rationally encounter consequences
-        that are extremely painful. Nor again is there anyone who loves.
+        Quem não sabe como buscar o prazer racionalmente encontra consequências
+        que são extremamente dolorosos. Também não há ninguém que ame.
       </p>
     </div>
     <aside className="box-description-section1">
       <Descriptions
         link={"/icondescription/packages.png"}
         description={
-          "Packaging is the technology of enclosing or protecting products for distribution, storage, sale, and use."
+          "Embalagem é a tecnologia de encerrar ou proteger produtos para distribuição, armazenamento, venda e uso."
         }
-        title={"Packaging And Storage"}
+        title={"Embalagem e armazenamento"}
       />
       <Descriptions
         link={"/icondescription/earth-globe.png"}
         description={
-          "We are one of teh worlwide transport company in the world, we provide on time service."
+          "Somos uma das empresas de transporte em todo o mundo, prestamos serviço pontual."
         }
-        title={"Worldwide Transport"}
+        title={"Transporte Mundial"}
       />
       <Descriptions
         link={"/icondescription/door-to-door.png"}
         description={
-          "Technology of enclosing or protecting products for distribution, storage, sale, and use."
+          "Tecnologia de encerrar ou proteger produtos para distribuição, armazenamento, venda e uso."
         }
-        title={"Door to Door delivery"}
+        title={"Entrega porta a porta"}
       />
       <Descriptions
         link={"/icondescription/road.png"}
         description={
-          "Worlwide transport company in the world, we provide on time service through ground."
+          "Empresa de transporte mundial, prestamos serviço pontual por via terrestre."
         }
-        title={"Ground Transport"}
+        title={"Transporte terrestre"}
       />
     </aside>
     <aside>

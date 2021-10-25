@@ -2,7 +2,7 @@ import CompanyValues from "@components/informationSections/sessao2/companyDetail
 import Testimonials from "@components/informationSections/sessao2/testimonials"
 
 const SectionTwo = () =>(
-    <section className="box-sec2 container">
+    <section id="algunsValores" className="box-sec2 container">
         <CompanyValues />
         <Testimonials />
     </section>

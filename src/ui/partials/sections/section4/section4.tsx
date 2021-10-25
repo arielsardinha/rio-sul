@@ -1,5 +1,5 @@
 const SectionFour = () => (
-  <section className="box-sessaoFour">
+  <section id="equipe" className="box-sessaoFour">
     <h3>CONHEÇA NOSSA EQUIPE DEDICADA</h3>
     <div className="box-grid">
       <AsideJimmy />

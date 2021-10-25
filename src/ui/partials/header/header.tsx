@@ -2,17 +2,17 @@ import DataInformation from "@components/dataInformation/dataInformation";
 import Link from "@components/link/link";
 
 const Header = () => (
-  <header className="header-container containe">
+  <header id="home" className="header-container containe">
     <DataInformation />
     <div className="box-titles" data-aos="fade-up">
-      <h1>We help yout to realise your business goals</h1>
+      <h1>Nós o ajudamos a realizar seus objetivos de negócios</h1>
       <p>
-        since 1890, when the business was founded in germen by jeorge vital bin
-        truckpress has grown into one of the world's leading logistics providers
+        desde 1890, quando a empresa foi fundada em germen por jeorge vital bin
+        truckpress tornou-se um dos principais fornecedores de logística do
+        mundo
       </p>
       <div>
-        <Link href="">Read More</Link>
-        <Link href="">Get Quote</Link>
+        <Link href="">Adquira o serviço</Link>
       </div>
     </div>
   </header>

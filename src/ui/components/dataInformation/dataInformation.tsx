@@ -2,11 +2,6 @@ import Link from "@components/link/link";
 import { useState } from "react";
 
 const DataInformation = () => {
-  const [[hora, minuto, dia]] = useState([
-    new Date().getHours().toString().padStart(2, "0"),
-    new Date().getMinutes().toString().padStart(2, "0"),
-    new Date().getDate(),
-  ]);
   return (
     <div className="box_data-information container">
       <address className="data-information">
@@ -56,12 +51,6 @@ const DataInformation = () => {
         </svg>
         <p>Seg - Sex : - 08:00 às 12:00 - 14:00 às 18:00 hs</p>
       </div>
-      <p className="data-information data">
-        Agora são {hora}:{minuto} horas,
-        {hora >= "8" && hora <= "18" && dia !== 0 && dia !== 6
-          ? " Estamos abertos!"
-          : " Estamos fechado!"}
-      </p>
     </div>
   );
 };

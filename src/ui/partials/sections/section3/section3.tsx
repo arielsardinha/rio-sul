@@ -3,11 +3,11 @@ import Link from "@components/link/link";
 const SectionThree = () => (
   <section className="box-sectionThree">
     <div className="box-texts">
-      <h3>We Have Dedicated Team to Provide Uninterrupted Services</h3>
+      <h3>Temos uma equipe dedicada para fornecer serviços ininterruptos</h3>
       <p>
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected sed humour,
-        or randomised of words which don’t look even slightly slop believable.
+        Existem muitas variações de passagens de Lorem Ipsum disponíveis, mas o
+        a maioria sofreu alteração de alguma forma, por humor sed injetado, ou
+        randomizado de palavras que não parecem nem um pouco críveis.
       </p>
       <CheckBox />
     </div>
@@ -57,7 +57,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Tracking of Shipment</p>
+      <p>Rastreamento de Remessa</p>
     </div>
 
     <div>
@@ -74,7 +74,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Reports & visibility</p>
+      <p>Relatórios e visibilidade</p>
     </div>
 
     <div>
@@ -91,7 +91,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Customized support</p>
+      <p>Suporte personalizado</p>
     </div>
 
     <div>
@@ -108,7 +108,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Transit Schedule</p>
+      <p>Cronograma de Trânsito</p>
     </div>
 
     <div>
@@ -125,7 +125,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Extensive Network</p>
+      <p>Rede extensiva</p>
     </div>
 
     <div>
@@ -142,7 +142,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Cost Efficient</p>
+      <p>Custo benefício</p>
     </div>
 
     <div>
@@ -159,7 +159,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Tracking of Shipment</p>
+      <p>Rastreamento de Remessa</p>
     </div>
 
     <div>
@@ -176,7 +176,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Reports & visibility</p>
+      <p>Relatórios e visibilidade</p>
     </div>
 
     <div>
@@ -193,7 +193,7 @@ const CheckBox = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Customized support</p>
+      <p>Suporte personalizado</p>
     </div>
   </div>
 );

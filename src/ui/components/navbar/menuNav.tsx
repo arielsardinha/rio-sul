@@ -15,7 +15,7 @@ const Nav = () => {
           />
         </Link>
         <button
-          className={`btn-menu ${opem === "opem" && "active-opem"} ${
+          className={`btn-menu ${opem === "opem" ? "active-opem" : ""} ${
             opem === "close" && "acctive-close"
           }`}
           onClick={() => {
@@ -34,7 +34,9 @@ const Nav = () => {
           </svg>
         </button>
       </div>
-      <div className={`container-nav-menu ${opem === "opem" && "active-menu"}`}>
+      <div
+        className={`container-nav-menu ${opem === "opem" ? "active-menu" : ""}`}
+      >
         <button
           className="back-left"
           onClick={() => {
@@ -42,11 +44,11 @@ const Nav = () => {
           }}
         ></button>
         <nav className="back-right">
-          <a href="">home</a>
-          <a href="">sobre nós</a>
-          <a href="">soluções</a>
-          <a href="">rastreamento</a>
-          <a href="">contato</a>
+          <Link href="/#home">home</Link>
+          <Link href="/#nossosServicos">Nossos Serviços</Link>
+          <Link href="/#algunsValores">Alguns valores</Link>
+          <Link href="/#equipe">Conheça nossa equipe dedicada</Link>
+          <Link href="">contato</Link>
         </nav>
       </div>
     </>

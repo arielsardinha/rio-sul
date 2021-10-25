@@ -4,54 +4,54 @@ const Attributes = () => (
   <div className="box-attributes">
     <div>
       <img src="/iconattributes/air-freight.png" alt="" />
-      <p>air frieght</p>
+      <p>frete aéreo</p>
       <div>
-        <h3>air frieght</h3>
+        <h3>frete aéreo</h3>
         <p>
-          Road parcel delivery is the transfer the goods via road carrier
-          anywhere in local area.
+          A entrega de encomendas rodoviárias é a transferência de mercadorias
+          por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
-          <Link href="">Read more</Link>
+          <Link href="">Adquira o serviço</Link>
         </div>
       </div>
     </div>
     <div>
       <img src="/iconattributes/freight.png" alt="" />
-      <p>sea frieght</p>
+      <p>frete marítimo</p>
       <div>
-        <h3>sea frieght</h3>
+        <h3>frete marítimo</h3>
         <p>
-          Road parcel delivery is the transfer the goods via road carrier
-          anywhere in local area.
+          A entrega de encomendas rodoviárias é a transferência de mercadorias
+          por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
-          <Link href="">Read more</Link>
+          <Link href="">Adquira o serviço</Link>
         </div>
       </div>
     </div>
     <div>
       <img src="/iconattributes/train.png" alt="" />
-      <p>train frieght</p>
+      <p>frete de trem</p>
       <div>
-        <h3>train frieght</h3>
+        <h3>frete de trem</h3>
         <p>
-          Road parcel delivery is the transfer the goods via road carrier
-          anywhere in local area.
+          A entrega de encomendas rodoviárias é a transferência de mercadorias
+          por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
-          <Link href="">Read more</Link>
+          <Link href="">Adquira o serviço</Link>
         </div>
       </div>
     </div>
     <div>
       <img src="/iconattributes/road.png" alt="" />
-      <p>road frieght</p>
+      <p>transporte rodoviário</p>
       <div>
-        <h3>road frieght</h3>
+        <h3>transporte rodoviário</h3>
         <p>
-          Road parcel delivery is the transfer the goods via road carrier
-          anywhere in local area.
+          A entrega de encomendas rodoviárias é a transferência de mercadorias
+          por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
           <Link href="">Read more</Link>

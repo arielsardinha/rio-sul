@@ -29,6 +29,7 @@
   transition: 2s;
   transition-property: width height;
   position: fixed;
+  z-index: 2;
   right: 30px;
   top: 30px;
   width: 0;
@@ -75,7 +76,7 @@
 .box-menu-nav {
   position: fixed;
   display: flex;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   justify-content: space-between;
   align-items: center;
