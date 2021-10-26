@@ -1,0 +1,25 @@
+.box-services-footer {
+  color: var(--text-white);
+  display: flex;
+  padding: 0 20px;
+  h3 {
+    font-size: 2em;
+  }
+  .service {
+    margin: 0 10px;
+    & > div {
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .box-services-footer {
+    flex-wrap: wrap;
+  }
+}

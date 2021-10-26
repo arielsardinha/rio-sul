@@ -17,12 +17,12 @@ a {
 }
 
 section {
-  max-width: 1440px;
+  max-width: 2440px;
   margin: auto;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 2440px;
   margin: auto;
 }
 
@@ -158,3 +158,5 @@ section {
 @import "../partials/sections/section5/section5.scss";
 @import "../partials/sections/section6/section6.scss";
 @import "../components/informationSections/section6/accordeon.scss";
+@import "../components/footer/footer.scss";
+@import "../components/footer/component/menu.scss";
