@@ -2,7 +2,7 @@ import Link from "@components/link/link";
 import Menu from "./component/menu";
 
 const Footer = () => (
-  <footer>
+  <footer id="footer">
     <div>
       <div className="box-length">
         <h2>Prensa de caminhão</h2>

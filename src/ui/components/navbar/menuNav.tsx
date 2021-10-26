@@ -48,7 +48,7 @@ const Nav = () => {
           <Link href="/#nossosServicos">Nossos Serviços</Link>
           <Link href="/#algunsValores">Alguns valores</Link>
           <Link href="/#equipe">Conheça nossa equipe dedicada</Link>
-          <Link href="">contato</Link>
+          <Link href="/#footer">contato</Link>
         </nav>
       </div>
     </>
