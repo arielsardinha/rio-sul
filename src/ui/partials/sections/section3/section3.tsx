@@ -1,7 +1,7 @@
 import Link from "@components/link/link";
 
 const SectionThree = () => (
-  <section className="box-sectionThree">
+  <section id="equipeDedicada" className="box-sectionThree">
     <div className="box-texts">
       <h3>Temos uma equipe dedicada para fornecer serviços ininterruptos</h3>
       <p>
@@ -12,8 +12,8 @@ const SectionThree = () => (
       <CheckBox />
     </div>
     <div className="box-inputs">
-      <Link href="" data-aos="fade-up">
-        Read More
+      <a href="https://WA.me/556333221580" target="_blank" rel="noreferrer">
+        Adquira o serviço
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -24,20 +24,7 @@ const SectionThree = () => (
         >
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
         </svg>
-      </Link>
-      <Link href="" data-aos="fade-up">
-        Contact Us
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          className="bi bi-caret-right-fill"
-          viewBox="0 0 16 16"
-        >
-          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-        </svg>
-      </Link>
+      </a>
     </div>
   </section>
 );

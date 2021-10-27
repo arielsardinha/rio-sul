@@ -2,28 +2,33 @@ import Link from "@components/link/link";
 import Menu from "./component/menu";
 
 const Footer = () => (
-  <footer id="footer">
-    <div>
-      <div className="box-length">
-        <h2>Prensa de caminhão</h2>
-        <h4>nós entregamos carga em todo o mundo</h4>
-        <p>
-          Desde 1890, quando a empresa foi fundada em Germen, Austrália, por
-          Jeorge Vital Bin e Jeorge Binny Van, a Truckpress tornou-se um dos
-          principais fornecedores de logística do mundo. A entrega de encomendas
-          de frete rodoviário é a transferência e as mercadorias por meio de
-          transportadora rodoviária.
-        </p>
+  <>
+    <footer id="footer">
+      <div>
+        <div className="box-length">
+          <img
+            src="logo-rio-sul-green.svg"
+            alt="rio sul rastreamento"
+            title="Rio Sul rastreamento"
+          />
+          <p>
+            A Rio Sul Rastreamento está no mercado a mais de 10 anos, a empresa
+            nasceu da necessidade de ofertar mais um produto para os usuários da
+            Rio Sul Benefícios que já usufrui de um serviço premium de proteção
+            veicular.
+          </p>
+        </div>
+        <Menu />
       </div>
-      <Menu />
-    </div>
-    <div className="footer-bottom">
-      <p>
-        Criado por TecnoPalmas © 2021 Rio Sul Rastreamento Todos os Direitos
-        Reservados.
-      </p>
-    </div>
-  </footer>
+      <div className="footer-bottom">
+        <address>
+          © 2021 Rio Sul Rastreamento Todos os Direitos Reservados. CNPJ:
+          04.782.980/0001-82 - RIO SUL RASTREAMENTO DE VEICULOS LTDA
+          Desenvolvido por TecnoPalmas Soluções em T.I
+        </address>
+      </div>
+    </footer>
+  </>
 );
 
 export default Footer;

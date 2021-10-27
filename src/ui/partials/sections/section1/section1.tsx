@@ -4,7 +4,7 @@ import QuantityDetailsUsers from "@components/informationSections/sessao1/quanti
 
 const SectionOne = () => (
   <section id="nossosServicos">
-    <Attributes />
+    {/* <Attributes /> */}
     <div className="box_sec1-title" data-aos="fade-up">
       <h3>NOSSOS SERVIÇOS DE QUALIDADE</h3>
       <p>
@@ -14,37 +14,23 @@ const SectionOne = () => (
     </div>
     <aside className="box-description-section1">
       <Descriptions
-        link={"/icondescription/packages.png"}
-        description={
-          "Embalagem é a tecnologia de encerrar ou proteger produtos para distribuição, armazenamento, venda e uso."
-        }
-        title={"Embalagem e armazenamento"}
-      />
-      <Descriptions
         link={"/icondescription/earth-globe.png"}
         description={
-          "Somos uma das empresas de transporte em todo o mundo, prestamos serviço pontual."
+          "Melhore o controle de veículos da sua operação, reduza custos, saiba onde estão seus carros e garanta que os motoristas estão cumprindo todas as boas práticas de conduta."
         }
-        title={"Transporte Mundial"}
-      />
-      <Descriptions
-        link={"/icondescription/door-to-door.png"}
-        description={
-          "Tecnologia de encerrar ou proteger produtos para distribuição, armazenamento, venda e uso."
-        }
-        title={"Entrega porta a porta"}
+        title={"Rastreamento de Caminhões"}
       />
       <Descriptions
         link={"/icondescription/road.png"}
         description={
-          "Empresa de transporte mundial, prestamos serviço pontual por via terrestre."
+          "Melhore o controle de veículos da sua operação, reduza custos, saiba onde estão seus carros e garanta que os motoristas estão cumprindo todas as boas práticas de conduta."
         }
-        title={"Transporte terrestre"}
+        title={"Rastreamento de carros"}
       />
     </aside>
-    <aside>
+    {/* <aside>
       <QuantityDetailsUsers />
-    </aside>
+    </aside> */}
   </section>
 );
 

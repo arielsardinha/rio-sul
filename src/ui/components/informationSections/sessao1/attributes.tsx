@@ -12,7 +12,9 @@ const Attributes = () => (
           por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
-          <Link href="">Adquira o serviço</Link>
+          <a href="https://WA.me/556333221580" target="_blank" rel="noreferrer">
+            Adquira o serviço
+          </a>
         </div>
       </div>
     </div>
@@ -26,7 +28,9 @@ const Attributes = () => (
           por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
-          <Link href="">Adquira o serviço</Link>
+          <a href="https://WA.me/556333221580" target="_blank" rel="noreferrer">
+            Adquira o serviço
+          </a>
         </div>
       </div>
     </div>
@@ -40,7 +44,9 @@ const Attributes = () => (
           por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
-          <Link href="">Adquira o serviço</Link>
+          <a href="https://WA.me/556333221580" target="_blank" rel="noreferrer">
+            Adquira o serviço
+          </a>
         </div>
       </div>
     </div>
@@ -54,7 +60,9 @@ const Attributes = () => (
           por meio de transportadora rodoviária em qualquer lugar da área local.
         </p>
         <div>
-          <Link href="">Read more</Link>
+          <a href="https://WA.me/556333221580" target="_blank" rel="noreferrer">
+            Adquira o serviço
+          </a>
         </div>
       </div>
     </div>

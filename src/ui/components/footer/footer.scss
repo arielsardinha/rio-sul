@@ -1,5 +1,9 @@
 footer {
-  background-color: var(--color-secondary);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 101, 42, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   padding: 30px;
   margin: auto;
   max-width: 2440px;
@@ -19,11 +23,10 @@ footer {
       }
     }
   }
-  .footer-bottom {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    color: var(--color-primary);
+
+  address {
+    max-width: 400px;
+    color: var(--text-white);
   }
 }
 
@@ -31,6 +34,16 @@ footer {
   footer {
     & > div {
       flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  footer {
+    padding: 0;
+
+    address{
+      padding: 0 10px;
     }
   }
 }

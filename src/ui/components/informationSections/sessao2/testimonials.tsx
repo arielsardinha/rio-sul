@@ -1,6 +1,6 @@
 const Testimonials = () => (
   <aside className="box-testimonials">
-    <h4>TESTIMONIALS</h4>
+    <h4>DEPOIMENTOS</h4>
     <div>
       <Philips />
       <Chris />

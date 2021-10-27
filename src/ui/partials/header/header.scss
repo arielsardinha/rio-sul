@@ -1,5 +1,14 @@
 .header-container {
   padding-top: 90px;
+  & > div {
+    background-image: url("/background-header.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .box-header{
+    padding-top: 20px;
+    margin-top: 40px;
+  }
   .box-titles {
     max-width: 500px;
     height: 600px;
@@ -11,6 +20,7 @@
     }
     p {
       font-style: italic;
+      color: var(--text-white);
     }
     a {
       color: var(--text-white);

@@ -46,9 +46,19 @@ const Nav = () => {
         <nav className="back-right">
           <Link href="/#home">home</Link>
           <Link href="/#nossosServicos">Nossos Serviços</Link>
-          <Link href="/#algunsValores">Alguns valores</Link>
-          <Link href="/#equipe">Conheça nossa equipe dedicada</Link>
-          <Link href="/#footer">contato</Link>
+          <Link href="/#equipeDedicada">Conheça nossa equipe dedicada</Link>
+          <Link href="/#duvidas">duvidas frequentes</Link>
+          <Link href="/#footer">contatos</Link>
+          <a
+            href="http://acesso.riosulrastreamento.com/release.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Rastreamento
+          </a>
+          <a href="https://WA.me/556333221580" target="_blank" rel="noreferrer">
+            Adquira nossos serviços
+          </a>
         </nav>
       </div>
     </>

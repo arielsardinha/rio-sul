@@ -7,6 +7,7 @@ import SectionFour from "@partials/sections/section4/section4";
 import SectionFive from "@partials/sections/section5/section5";
 import SectionSix from "@partials/sections/section6/section6";
 import Footer from '@components/footer/footer'
+import SectionSeven from "@partials/sections/sessao7-3/sessao7";
 
 export default function Home() {
   return (
@@ -15,9 +16,10 @@ export default function Home() {
       <Header />
       <main>
         <SectionOne />
+        <SectionSeven />
         <SectionTwo />
         <SectionThree />
-        <SectionFour />
+        {/* <SectionFour /> */}
         <SectionFive />
         <SectionSix />
       </main>

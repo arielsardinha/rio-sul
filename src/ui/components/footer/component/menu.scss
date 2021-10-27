@@ -10,7 +10,12 @@
     & > div {
       display: flex;
       align-items: center;
-
+      a {
+        margin: 10px 0;
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
       svg {
         margin-right: 10px;
       }

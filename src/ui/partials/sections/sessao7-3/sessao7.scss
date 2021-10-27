@@ -1,0 +1,52 @@
+.box-sessao-seven {
+  margin: 100px 0;
+  h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2em;
+  }
+
+  .box {
+    display: flex;
+    .box-itens {
+      padding: 10px;
+      display: flex;
+      &:hover {
+        svg {
+          transition: 0.5s;
+          background-color: var(--color-primary);
+        }
+      }
+      h2 {
+        margin: 0;
+      }
+      svg {
+        background-color: var(--color-secondary);
+        padding: 10px;
+        border-radius: 5px;
+        color: var(--text-white);
+        margin-right: 10px;
+      }
+      p {
+        color: var(--text-grey-2);
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .box-sessao-seven {
+    padding: 0 20px;
+    .box-itens {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .box-sessao-seven {
+    .box {
+      flex-wrap: wrap;
+    }
+  }
+}
