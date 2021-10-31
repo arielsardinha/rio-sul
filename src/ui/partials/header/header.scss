@@ -1,11 +1,12 @@
 .header-container {
   padding-top: 90px;
-  & > div {
-    background-image: url("/background-header.jpeg");
+  .box-header {
+    background-image: url("/background-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
-  .box-header{
+  .box-header {
     padding-top: 20px;
     margin-top: 40px;
   }
@@ -20,7 +21,6 @@
     }
     p {
       font-style: italic;
-      color: var(--text-white);
     }
     a {
       color: var(--text-white);
