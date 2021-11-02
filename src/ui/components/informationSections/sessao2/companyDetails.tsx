@@ -1,16 +1,16 @@
 import { useState } from "react";
 
 const CompanyValues = () => {
-  const [active, setActive] = useState("innovative");
+  const [active, setActive] = useState("aplicativo");
   return (
     <aside className="box-company-details">
-      <h4>ALGUNS VALORES DA EMPRESA</h4>
+      <h4></h4>
       <div></div>
       <div className="box-informate">
         <ul>
           <li
-            onClick={() => setActive("innovative")}
-            className={active === "innovative" ? "active" : ""}
+            onClick={() => setActive("aplicativo")}
+            className={active === "aplicativo" ? "active" : ""}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,11 +22,11 @@ const CompanyValues = () => {
             >
               <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
             </svg>
-            <p>Inovativa</p>
+            <p>Aplicativo de gestão</p>
           </li>
           <li
-            onClick={() => setActive("quality")}
-            className={active === "quality" ? "active" : ""}
+            onClick={() => setActive("caminhoes")}
+            className={active === "caminhoes" ? "active" : ""}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,11 +38,11 @@ const CompanyValues = () => {
             >
               <path d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z" />
             </svg>
-            <p>Qualidade</p>
+            <p>Rastreamento de caminhões</p>
           </li>
           <li
-            onClick={() => setActive("commitment")}
-            className={active === "commitment" ? "active" : ""}
+            onClick={() => setActive("rastreamento")}
+            className={active === "rastreamento" ? "active" : ""}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -59,57 +59,81 @@ const CompanyValues = () => {
               />
               <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
             </svg>
-            <p>Compromisso</p>
+            <p>Rastreamento de carros</p>
           </li>
         </ul>
         <Inform type={active.toString()} />
+        <div
+          className="circle"
+          style={{ display: active === "aplicativo" ? "block" : "none" }}
+        >
+          <img
+            src="/servicos/celular.jpg"
+            alt="aplicativo de gestão"
+            title="aplicativo de gestão"
+          />
+        </div>
+        <div
+          className="circle"
+          style={{ display: active === "caminhoes" ? "block" : "none" }}
+        >
+          <img
+            src="/servicos/caminhoes.jpg"
+            alt="rastreamento de caminhões"
+            title="rastreamento de caminhões"
+          />
+        </div>
+        <div
+          className="circle"
+          style={{ display: active === "rastreamento" ? "block" : "none" }}
+        >
+          <img
+            src="/servicos/carros.jpg"
+            alt="rastreamento de carros"
+            title="rastreamento de carros"
+          />
+        </div>
       </div>
     </aside>
   );
 };
 
 const Inform = ({ type }) => {
-  if (type === "innovative")
+  if (type === "aplicativo")
     return (
       <div className="box-texts" data-aos="fade-up">
-        <h5>Inovador (para pensar antes de agir)</h5>
+        <h5></h5>
         <p>
-          Quer você seja global ou local, baseado em ativos ou não, mova onde as
-          remessas por via aérea, marítima, terrestre ou qualquer logística
-          também estarão combi- é mais fácil falar do que fazer, pois você tem
-          que nos gerenciar remessas, recursos e documentos. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit.
+          Não está na frente do computador? Tenha visibilidade da sua frota onde
+          estiver
         </p>
         <span>
           <CheckInnovative />
         </span>
       </div>
     );
-  if (type === "quality")
+  if (type === "caminhoes")
     return (
       <div className="box-texts" data-aos="fade-up">
-        <h5>Qualidade</h5>
+        <h5></h5>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          placerat eu lacus in facilisis. Vivamus sit amet imperdiet eros.
-          Quisque condimentum eros at tortor hendrerit, non consectetur metus
-          malesuada. Nam blandit nisl nisl.
+          Melhore o controle de veículos da sua operação, reduza custos, saiba
+          onde estão seus carros e garanta que os motoristas estão cumprindo
+          todas as boas práticas de conduta.
         </p>
         <span>
           <CheckQuality />
         </span>
       </div>
     );
-  if (type === "commitment")
+  if (type === "rastreamento")
     return (
       <div className="box-texts" data-aos="fade-up">
-        <h5>Compromisso</h5>
+        <h5></h5>
         <p>
-          Como toda essa ideia equivocada de denunciar o prazer e elogiar a dor
-          nasceu em e vou dar-lhe um relato completo do sistema, e expor os
-          verdadeiros ensinamentos do grande explorador da verdade felicidade.
+          Melhore o controle de veículos da sua operação, reduza custos, saiba
+          onde estão seus carros e garanta que os motoristas estão cumprindo
+          todas as boas práticas de conduta.
         </p>
         <span>
           <CheckCommitment />
@@ -135,7 +159,7 @@ const CheckInnovative = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Essentialy Unchaged</p>
+      <p>localização no mapa</p>
     </div>
     <div>
       <svg
@@ -151,7 +175,7 @@ const CheckInnovative = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Long Established</p>
+      <p>status da ignição</p>
     </div>
     <div>
       <svg
@@ -167,55 +191,7 @@ const CheckInnovative = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Pleasure Rationally</p>
-    </div>
-    <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        className="bi bi-check2-circle"
-        viewBox="0 0 16 16"
-        data-aos="fade-up"
-        data-aos-delay="600"
-      >
-        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-      </svg>
-      <p>Publishing Packages</p>
-    </div>
-    <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        className="bi bi-check2-circle"
-        viewBox="0 0 16 16"
-        data-aos="fade-up"
-        data-aos-delay="600"
-      >
-        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-      </svg>
-      <p>Classical Literature</p>
-    </div>
-    <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        className="bi bi-check2-circle"
-        viewBox="0 0 16 16"
-        data-aos="fade-up"
-        data-aos-delay="600"
-      >
-        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-      </svg>
-      <p>Frequently Occur</p>
+      <p>velocidade dos veículos</p>
     </div>
   </>
 );
@@ -236,7 +212,7 @@ const CheckQuality = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Essentialy Unchaged</p>
+      <p>Controle de Jornada</p>
     </div>
     <div>
       <svg
@@ -252,7 +228,7 @@ const CheckQuality = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Long Established</p>
+      <p>Gestao de Frontas</p>
     </div>
     <div>
       <svg
@@ -268,7 +244,7 @@ const CheckQuality = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Pleasure Rationally</p>
+      <p>Monitoramento WEB</p>
     </div>
     <div>
       <svg
@@ -284,7 +260,7 @@ const CheckQuality = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Publishing Packages</p>
+      <p>Monitoramento Mobile</p>
     </div>
     <div>
       <svg
@@ -300,23 +276,7 @@ const CheckQuality = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Classical Literature</p>
-    </div>
-    <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        className="bi bi-check2-circle"
-        viewBox="0 0 16 16"
-        data-aos="fade-up"
-        data-aos-delay="600"
-      >
-        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-      </svg>
-      <p>Frequently Occur</p>
+      <p>Telemetria</p>
     </div>
   </>
 );
@@ -337,7 +297,7 @@ const CheckCommitment = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Essentialy Unchaged</p>
+      <p>Controle de Jornada</p>
     </div>
     <div>
       <svg
@@ -353,7 +313,7 @@ const CheckCommitment = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Long Established</p>
+      <p>Gestao de Frontas</p>
     </div>
     <div>
       <svg
@@ -369,7 +329,7 @@ const CheckCommitment = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Pleasure Rationally</p>
+      <p>Monitoramento WEB</p>
     </div>
     <div>
       <svg
@@ -385,7 +345,7 @@ const CheckCommitment = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Publishing Packages</p>
+      <p>Monitoramento Mobile</p>
     </div>
     <div>
       <svg
@@ -401,23 +361,7 @@ const CheckCommitment = () => (
         <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
         <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
       </svg>
-      <p>Classical Literature</p>
-    </div>
-    <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        className="bi bi-check2-circle"
-        viewBox="0 0 16 16"
-        data-aos="fade-up"
-        data-aos-delay="600"
-      >
-        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-      </svg>
-      <p>Frequently Occur</p>
+      <p>Telemetria</p>
     </div>
   </>
 );

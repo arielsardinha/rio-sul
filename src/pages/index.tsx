@@ -16,8 +16,8 @@ export default function Home() {
       <Header />
       <main>
         <SectionOne />
+        <SectionTwo />
         <SectionSeven />
-        {/* <SectionTwo /> */}
         <SectionThree />
         {/* <SectionFour /> */}
         {/* <SectionFive /> */}

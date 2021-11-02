@@ -13,7 +13,7 @@ export default SectionSeven;
 
 const Custo = () => (
   <div className="box-itens">
-    <div>
+    <div data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"
@@ -38,7 +38,7 @@ const Custo = () => (
 
 const Controle = () => (
   <div className="box-itens">
-    <div>
+    <div data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"
@@ -66,7 +66,7 @@ const Controle = () => (
 
 const Tempo = () => (
   <div className="box-itens">
-    <div>
+    <div data-aos="fade-up">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="48"
