@@ -5,23 +5,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  .box-header {
-    padding-top: 20px;
-    margin-top: 40px;
-  }
-  .box-titles {
-    max-width: 500px;
-    height: 600px;
-    text-align: left;
-    margin: 0 auto;
-    padding: 0 10px;
-    h1 {
-      font-size: 3em;
-    }
-    p {
-      font-style: italic;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
     a {
       color: var(--text-white);
       padding: 5px 20px;
@@ -40,6 +27,24 @@
         }
       }
     }
+  }
+  .box-header {
+    padding-top: 20px;
+    margin-top: 40px;
+  }
+  .box-titles {
+    max-width: 500px;
+    height: 600px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 10px;
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-style: italic;
+    }
+
   }
 }
 
